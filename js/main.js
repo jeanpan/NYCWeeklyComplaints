@@ -239,7 +239,7 @@
 
   function plotGroupedBarChart(data) {
 
-    var chartWidth       = 500,
+    var chartWidth       = 510,
         barHeight        = 20,
         groupHeight      = barHeight * data.series.length,
         gapBetweenGroups = 20,
