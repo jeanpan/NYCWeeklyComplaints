@@ -47,7 +47,7 @@
 
   info.update = function (props) {
     this._div.innerHTML = '<h4>NYC Community District</h4>' +  (props ?
-      '<b>' + convert2Boroughs(props.borocd) + '</b><br />' + props.neighborhood + ' people / mi<sup>2</sup>'
+      '<b>' + convert2Boroughs(props.borocd) + '</b><br />'
       : 'Hover over a CD');
   };
 
