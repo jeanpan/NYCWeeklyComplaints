@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NYC Weekly Complaints Comparison</title>
+  <!-- For full screen Leaflet maps, add the following meta tag to set parameters in the viewport. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- Including Google font -->
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Source+Code+Pro:400,300,600,700' rel='stylesheet' type='text/css'>
+  <!-- Including Leaflet CSS -->
+  <link type="text/css" rel="stylesheet" href="libraries/leaflet/leaflet.css"/>
+  <!-- Including custom CSS -->
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="header">
+    <p class="head">NYC Weekly Complaints Comparison</p>
+    <span class="range">Mar 07 - Mar 13, 2016 <!--<img src="image/1457409075_Streamline-70.png" alt="" class="clean">--></span>
+
+  </div>
+  <div id="container">
+    <div class="content">
+      <svg class="chart"></svg>
+    </div>
+  </div>
+  <!--
+  <footer>
+    <p class="desc">Created using <a href="">NYC 311</a> city complaint data by <a href="">@jeanpan</a> with <span class="emphas">❤</span></p>
+  </footer>
+  -->
+</body>
+
+<script type="text/javascript" src="libraries/leaflet/leaflet.js"></script>
+
+<script type="text/javascript" src="libraries/jquery/jquery-1.11.2.min.js"></script>
+
+<script type="text/javascript" src="libraries/d3/d3.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>

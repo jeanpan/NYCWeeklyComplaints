@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Source Code Pro', Arial, sans-serif;
+}
+
+html, body, #map, #show {
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #992A31;
+}
+
+.header {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  z-index: 999;
+  width: 800px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+p.head {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 220%;
+  margin: 0;
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+p.desc {
+  font-size: 12px;
+  color: #333;
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+}
+
+.clean {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+span.range {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #423B22;
+}
+
+span.emphas {
+  color: #992A31;
+}
+
+.content {
+  position: absolute;
+  top: 80px;
+  height: 88%;
+  overflow: auto;
+  /* margin-top: 50px; */
+}
+
+#container {
+  top: 5vh;
+  right: 30px;
+  position: absolute;
+  width: 800px;
+  height: 88%;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
+
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+  font-size: 11px;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  background: none;
+}
+
+/*
+.chart rect {
+  fill: steelblue;
+}
+*/
+.chart .legend {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.chart .label {
+  fill: black;
+  font: 12px sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
+  text-anchor: end;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  shape-rendering: crispEdges;
+  stroke-width: 3px;
+}
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.info h4 {
+  margin: 0 0 5px;
+  color: #777;
+}
