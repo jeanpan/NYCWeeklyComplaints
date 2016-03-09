@@ -270,6 +270,8 @@
         .orient("left");
 
     // Specify the chart area and dimensions
+    d3.select(".intro").html("");
+
     d3.select(".chart").html("");
 
     var chart = d3.select(".chart")
